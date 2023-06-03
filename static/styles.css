@@ -1,0 +1,114 @@
+.mpa{
+    color : yellow;
+    font-weight: bold;
+    font-size:26px
+
+}
+.dz{
+    font-family: system-ui;
+    font-weight: bold;
+
+}
+.lead{
+    font-style: italic;
+    text-decoration: underline dotted 1px;
+}
+#na:focus
+{
+    box-shadow: 0px 3px 3px 3px yellow;
+    border-color: yellow;
+}
+#mail:focus
+{
+    box-shadow: 0px 3px 3px 3px yellow;
+    border-color: yellow
+}
+.btn-warning{
+    background-color : yellow;
+}
+.btn-warning:hover{
+    background-color : #FFFF80;
+}
+.illus{
+    padding : 30px;
+    width : 450px;
+    display : flex;
+    text-align: center;
+    margin: auto;
+
+}
+ .item{
+    margin : 5px;
+    border: 1px solid gray;
+    padding : 10px;
+
+}
+.msg{
+    color:red;
+}
+.msg1{
+    color : green;
+}
+footer{
+    background-color : gray;
+    color : yellow;
+    text-align: center;
+}
+.cntr{
+    padding : 30px;
+    width : 450px;
+    font-weight:bold;
+    text-align: center;
+    margin: auto;
+    border:1px solid gray;
+
+
+}
+.product{
+    font-weight:italic;
+    animation-name:example;
+    animation-duration: 8s;
+    position: relative;
+}
+@keyframes example
+{
+    from { color: white;}
+    to {  color: black;}
+    0%   {left:0px;}
+    50% {left: 10px;}
+
+  }
+
+
+.poutre{
+    background-color : black;
+    height:10px;
+    border-radius:4px;
+}
+.stage1{
+    margin-left : 20px;
+    margin-right:20px;
+    border:1px solid black;
+    border-radius:10px 0px 20px 0px;
+    box-shadow: 3px 10px 3px gray;
+}
+.stage2{
+    margin-left : 40px;
+    margin-right:40px;
+
+    border-radius:10px 0px 20px 0px;
+    box-shadow: 3px 10px 3px gray;
+    border:1px solid black;
+}
+.fundation{
+    background-color :maroon;
+    height:30px;
+    margin-left : 50px;
+    margin-right:50px;
+
+}
+.stg1{
+    animation-name:example;
+    animation-duration: 20s;
+    font-family:Copperplate Gothic Light;
+}
